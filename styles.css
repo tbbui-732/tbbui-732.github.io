@@ -78,6 +78,8 @@ ul.post-list li {
 }
 
 a {
+
+    font-size: 0.8rem;
     color: #222;
     text-decoration: none;
 }
