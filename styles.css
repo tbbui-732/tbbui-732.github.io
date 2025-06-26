@@ -1,0 +1,89 @@
+/* remove default spacing and sets fontsize to 1rem*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    font-family: monospace, 'Georgia', serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #1a1a1a;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size 1.5rem;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: monospace;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #333;
+}
+
+ul.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.post-list li {
+    font-size: 1.1rem;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+footer {
+    color: #888;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
